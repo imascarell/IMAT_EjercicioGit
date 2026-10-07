@@ -20,6 +20,11 @@
 
         static int Divide(int x, int y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine("Hola, el divisor no puede ser 0.");
+                return;
+            }
             return x / y;
 
         static int Subtract(int x, int y)
