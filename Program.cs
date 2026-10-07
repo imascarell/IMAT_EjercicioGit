@@ -22,7 +22,7 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("El divisor no puede ser 0.");
+                Console.WriteLine("Hola, el divisor no puede ser 0.");
                 return;
             }
             return x / y;
